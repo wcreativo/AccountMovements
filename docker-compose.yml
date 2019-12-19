@@ -1,0 +1,10 @@
+version: '2'
+services:
+    python-interview:
+        build: .
+        command: python manage.py runserver --settings=developer.settings 0.0.0.0:8008
+        volumes:
+            - .:/code
+        ports:
+            - "8008:8008"
+        network_mode: bridge

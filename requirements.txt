@@ -1,0 +1,8 @@
+django==2.2.6
+markdown
+django-extensions==2.2.3
+django-filter==2.2.0
+djangorestframework==3.10
+simplejson==3.16.0
+numpy==1.17.3
+pandas==0.25.1

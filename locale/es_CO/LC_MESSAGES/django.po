@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 08:17+0200\n"
+"PO-Revision-Date: 2017-09-22 08:22+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_CO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+
+#: .\\.py
+msgid "saving"
+msgstr "ahorros"
+
+#: .\\.py
+msgid "ordinary"
+msgstr "corriente"
+
+#: .\\.py
+msgid "type"
+msgstr "tipo"
+
+#: .\\.py
+msgid "number"
+msgstr "número"
+
+#: .\\.py
+msgid "first name"
+msgstr "nombres"
+
+#: .\\.py
+msgid "last name"
+msgstr "apellidos"
+
+#: .\\.py
+msgid "birth date"
+msgstr "fecha de nacimiento"
+
+#: .\\.py
+msgid "citizenship card"
+msgstr "cedula de ciudadania"
+
+#: .\\.py
+msgid "foreign identity card"
+msgstr "cedula de extranjeria"
+
+#: .\\.py
+msgid "number identification"
+msgstr "número de identificación"
+
+#: .\\.py
+msgid "client"
+msgstr "cliente"
+
+#: .\\.py
+msgid "clients"
+msgstr "clientes"
+
+#: .\\.py
+msgid "account"
+msgstr "cuenta"
+
+#: .\\.py
+msgid "account"
+msgstr "cuentas"
+
+#: .\\.py
+msgid "balance"
+msgstr "saldo"
+
+#: .\\.py
+msgid "consignment"
+msgstr "consignación"
+
+#: .\\.py
+msgid "retirement"
+msgstr "retiro"
+
+#: .\\.py
+msgid "transfer"
+msgstr "transferencia"
+
+#: .\\.py
+msgid "4*1000"
+msgstr "4*1000"
+
+#: .\\.py
+msgid "value"
+msgstr "valor"
+
+#: .\\.py
+msgid "transfer send"
+msgstr "transferencia"
+
+#: .\\.py
+msgid "transfer received"
+msgstr "transferencia"
+
+#: .\\.py
+msgid "audit client"
+msgstr "auditoria cliente"
+
+#: .\\.py
+msgid "audits clients"
+msgstr "auditorias clientes"
+
+#: .\\.py
+msgid "bank"
+msgstr "banco"
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+
+#: .\\.py
+msgid ""
+msgstr ""
+

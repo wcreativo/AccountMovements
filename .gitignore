@@ -1,0 +1,12 @@
+# Virtual env
+venv
+
+.idea/
+
+# pyc
+*.pyc
+*/*.pyc
+*/*/*.pyc
+
+# SQlite
+bank.sqlite3
