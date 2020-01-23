@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^api-user/', include('rest_framework.urls')),
     url('', include(bank_urls)),
+    path('', include('swagger.urls')),
 ]

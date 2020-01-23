@@ -51,7 +51,6 @@ class MovementsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Movements
         fields = '__all__'
-        read_only_fields = ['current_date']
 
     def to_internal_value(self, data):
         return super().to_internal_value()
