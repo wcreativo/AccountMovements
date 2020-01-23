@@ -3,7 +3,7 @@ Python developer test
 
 ## Introduction
 
-This is basic apis to administration a bank, follow the installation instructions and latter initialize the test.
+This is the basic apis to administer a bank, follow the installation instructions and latter initialize the test.
 
 ## Installation 
 
@@ -21,7 +21,7 @@ Ingress to project directory: create a new branch and up the docker, wait while 
 ```bash
 $ cd python-developer-test/
 $ git branch my_complete_name_branch
-$ git checkout my_complete_name_branch 
+$ git checkout my_complete_name_branch  
 $ docker-compose up &
 ```
 
@@ -48,7 +48,7 @@ Please, when solving a question, leave a comment with the number of the result, 
 1. Add a unique key composed of the identification type and identification number in the client model (1 point)
 2. Modify the foreign key of the client model with one that restricts cascade deletion (1 point)
 3. Add an index for the number field in account model (1 point)
-4. Add the user accounts in the client API response (3 points)
+4. Add the user accounts in the to_representation method in the ClientSerializer (3 points)
 5. Modify the movement serializer so that only transaction values ​​greater than 0 are accepted (1 point)
 6. Using Django filters, add the following filters:
     1. By identification number in the client API (1 point)

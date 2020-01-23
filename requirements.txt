@@ -3,6 +3,9 @@ markdown
 django-extensions==2.2.3
 django-filter==2.2.0
 djangorestframework==3.10
+django-rest-swagger==2.2.0
 simplejson==3.16.0
 numpy==1.17.3
 pandas==0.25.1
+coreschema==0.0.4
+coreapi==2.3.3
