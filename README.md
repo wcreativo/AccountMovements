@@ -54,7 +54,7 @@ Please, when solving a question, leave a comment with the number of the result, 
     1. By identification number in the ClientViewSet (1 point)
     2. By customer identification number in the AccountViewSet (1 point)
     3. By account number in the MovementsViewSet (1 point)
-7. Modify the MovementViewSet, so that at the time of registering any transaction, modify the account balance according to the following instructions:
+7. Modify the MovementSerializer, so that at the time of registering any transaction, modify the account balance according to the following instructions:
     1. Consignments add to the balance (2 points)
     2. Withdrawals subtract from the balance "if the balance is less than zero, indicate that the transaction cannot be made" (2 points)
     3. Transfer sent subtracted from the balance "if the balance is less than zero, indicate that the transaction cannot be made" (3 points)
