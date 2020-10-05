@@ -53,4 +53,4 @@ class MovementsSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
     def to_internal_value(self, data):
-        return super().to_internal_value()
+        return super().to_internal_value(data)
