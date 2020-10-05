@@ -10,6 +10,21 @@ class AuditClientSerializer(serializers.ModelSerializer):
         model = AuditClient
         fields = '__all__'
 
+        
+class AccountSerializer(serializers.ModelSerializer):
+    number = serializers.CharField(
+        max_length=250,
+        validators=[UniqueValidator(queryset=Account.objects.all())]
+    )
+    
+    class Meta:
+        model = Account
+        fields = '__all__'
+        read_only_fields = ['current_date']
+
+    def to_representation(self, instance):
+        return super().to_representation(instance)
+
 
 class ClientSerializer(serializers.ModelSerializer):
     class Meta:
@@ -30,21 +45,6 @@ class ClientSerializer(serializers.ModelSerializer):
         )
         ret['audit'] = audit_serializer.data
         return ret
-
-
-class AccountSerializer(serializers.ModelSerializer):
-    number = serializers.CharField(
-        max_length=250,
-        validators=[UniqueValidator(queryset=Account.objects.all())]
-    )
-    
-    class Meta:
-        model = Account
-        fields = '__all__'
-        read_only_fields = ['current_date']
-
-    def to_representation(self, instance):
-        return super().to_representation()
 
 
 class MovementsSerializer(serializers.ModelSerializer):
