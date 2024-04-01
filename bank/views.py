@@ -1,13 +1,20 @@
 # https://www.django-rest-framework.org/api-guide/viewsets/
 from django.db import transaction
 from django.shortcuts import get_object_or_404
+from django_filters import rest_framework as filters
 from rest_framework import status, viewsets
 from rest_framework.response import Response
 
 from bank.models import Account, Client, Movements
-from bank.serializers import (AccountSerializer, ClientInlineSerializer,
-                              ClientSerializer, MovementsSerializer)
+from bank.serializers import (
+    AccountSerializer,
+    ClientInlineSerializer,
+    ClientSerializer,
+    MovementsSerializer,
+)
 from bank.services import AccountUpdater
+
+from .filters import AccountFitler, ClientFilter, MovementsFilter
 
 
 class ClientViewSet(viewsets.ModelViewSet):
@@ -34,6 +41,8 @@ class ClientViewSet(viewsets.ModelViewSet):
     """
 
     queryset = Client.objects.all()
+    filter_backends = [filters.DjangoFilterBackend]
+    filterset_class = ClientFilter
 
     # Solution 4
     def get_serializer_class(self):
@@ -67,6 +76,8 @@ class AccountViewSet(viewsets.ModelViewSet):
 
     serializer_class = AccountSerializer
     queryset = Account.objects.all()
+    filter_backends = [filters.DjangoFilterBackend]
+    filterset_class = AccountFitler
 
     def delete(self, request, pk):
         return Response(status=status.HTTP_405_METHOD_NOT_ALLOWED)
@@ -97,6 +108,8 @@ class MovementsViewSet(viewsets.ModelViewSet):
 
     serializer_class = MovementsSerializer
     queryset = Movements.objects.all()
+    filter_backends = [filters.DjangoFilterBackend]
+    filterset_class = MovementsFilter
 
     # Solution 7
     @transaction.atomic

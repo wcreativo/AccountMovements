@@ -9,3 +9,5 @@ numpy==1.17.3
 pandas==0.25.1
 coreschema==0.0.4
 coreapi==2.3.3
+pytest-django
+pytest-factoryboy==2.7.0
